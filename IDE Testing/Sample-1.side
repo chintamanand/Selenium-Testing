@@ -1,0 +1,139 @@
+{
+  "id": "cafef00d-0f0d-4fea-9adc-2efb6ac3a9c2",
+  "version": "1.1",
+  "name": "Sample-1",
+  "url": "https://manipal.edu",
+  "tests": [{
+    "id": "68dbd9f5-335d-450a-88ac-bfe58d77a541",
+    "name": "Untitled",
+    "commands": [{
+      "id": "da72f6cd-6780-45c3-95b1-be3fcdb739fe",
+      "comment": "",
+      "command": "open",
+      "target": "/mu.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b89f9511-056c-458c-8461-fc10f9897755",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4db71f0a-051d-42fc-9bf2-dd95d1ea7bbf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,247)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e9b7824-1e39-44f8-be5d-7d86ff46b226",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PROJECTS AT MANIPAL",
+      "targets": [
+        ["linkText=PROJECTS AT MANIPAL", "linkText"],
+        ["css=a.view_more", "css"],
+        ["css=.homePage:nth-child(1) > .learning-carousel-sections .view_more", "css:finder"],
+        ["xpath=//a[contains(text(),'PROJECTS AT MANIPAL')]", "xpath:link"],
+        ["xpath=//div[@id='inspired-learning']/div/section/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mu/important-links/student-projects-manipal-university.html.html')]", "xpath:href"],
+        ["xpath=//section/ul/li/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cc5c18f-5135-41b3-92bc-202bbca19892",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,816)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dcc2885-179e-4551-a377-27ce604403f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,386)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1565213-a851-42c9-952e-ec43b3fd7567",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1052)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84c3accc-2fdf-45bd-8936-2699ce3fda10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hom-sec-nav-item:nth-child(2) .sticky-nav-text",
+      "targets": [
+        ["css=.hom-sec-nav-item:nth-child(2) .sticky-nav-text", "css:finder"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f3c3ed6-481d-48a0-971d-1ace45cd02ee",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1350)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f349f91-2ed0-483e-b37a-7cdc2f7d60d4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3098)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11a33150-e80e-4a93-93c8-b5be32fadf7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container-wrapper:nth-child(2) .prim-nav-btn-mobile",
+      "targets": [
+        ["css=.container-wrapper:nth-child(2) .prim-nav-btn-mobile", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/nav/ul/li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cdac6c1-081c-4356-99c8-5cf70315877d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1043)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdf43018-4572-4adf-b1a2-654ebea79377",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(6) > .page-links",
+      "targets": [
+        ["css=li:nth-child(6) > .page-links", "css:finder"],
+        ["xpath=(//a[contains(text(),'Important Links')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/mu/important-links.html')])[3]", "xpath:href"],
+        ["xpath=//ul[2]/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc21f38-8aa7-4800-83d7-113bdc882aea",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cfd8a376-92c9-4da7-a1e2-825954bda280",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["68dbd9f5-335d-450a-88ac-bfe58d77a541"]
+  }],
+  "urls": ["https://manipal.edu/"],
+  "plugins": []
+}

@@ -1,0 +1,116 @@
+{
+  "id": "877217be-fd43-4acf-a227-f566cd3c182b",
+  "version": "1.1",
+  "name": "Sample-2",
+  "url": "http://demo.guru99.com",
+  "tests": [{
+    "id": "6c1e3aac-3e71-414f-9a26-87a2edb63838",
+    "name": "Untitled",
+    "commands": [{
+      "id": "f3fe7834-fc40-4a7a-8fdd-27de5e87d943",
+      "comment": "",
+      "command": "open",
+      "target": "/test/newtours/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "355d6ff6-a610-4998-b2c3-1615dc1c2d39",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x372",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dce2750c-c999-41c5-b3dc-6b617186f2b5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,639)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cee5a332-e15c-49dc-acd9-3e84f55b83c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,639)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "decdcfdb-5d2f-44ce-bb9d-53f390eff5ba",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tr:nth-child(2) > td:nth-child(3)",
+      "targets": [
+        ["css=tr:nth-child(2) > td:nth-child(3)", "css:finder"],
+        ["xpath=//tr[2]/td[3]", "xpath:position"]
+      ],
+      "value": "Jul 6, 2017\\nRegistered users can sign-in here to find the lowest fare on participating airlines.\\nUser Name:\\nPassword:\\n  Find detailed information about your destination.\\nRead about our featured vacation destinations.\\nRegister here to join Mercury Tours!\\n\\nBusiness Travel @ About.com\\nSalon Travel\\n "
+    }, {
+      "id": "f07f6a20-4753-4be8-bd99-1a45db164f8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > font",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > font", "css:finder"],
+        ["xpath=//tr[3]/td[2]/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcd5c79a-7bcc-4700-b984-70211a944adc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > font",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > font", "css:finder"],
+        ["xpath=//tr[3]/td[2]/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8038390-dae5-4723-9828-392bd098bea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(2) > font",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(2) > font", "css:finder"],
+        ["xpath=//tr[3]/td[2]/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8edfe56-4288-4b9e-8324-549a0531369f",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td:nth-child(2) > table > tbody > tr > td:nth-child(1)",
+      "targets": [
+        ["css=td td:nth-child(2) > table > tbody > tr > td:nth-child(1)", "css:finder"],
+        ["xpath=//td/table/tbody/tr/td[2]/table/tbody/tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7700bd4c-5807-47b1-bcef-7a970dc793e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(3) td:nth-child(2)",
+      "targets": [
+        ["css=table:nth-child(3) td:nth-child(2)", "css:finder"],
+        ["xpath=//table[2]/tbody/tr[3]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa74f4d-279d-42ce-a4a7-ce4320eb9058",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a491044c-c531-4f70-94fc-f36c9836fdcc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c1e3aac-3e71-414f-9a26-87a2edb63838"]
+  }],
+  "urls": ["http://demo.guru99.com/"],
+  "plugins": []
+}

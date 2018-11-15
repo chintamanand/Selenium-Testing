@@ -1,0 +1,178 @@
+{
+  "id": "7f8b6627-3ee1-42c3-861c-272e31a1d06e",
+  "version": "1.1",
+  "name": "Sample-3",
+  "url": "http://webmath.com",
+  "tests": [{
+    "id": "b93b4b0a-9001-4db8-96a1-61c67b9c66ae",
+    "name": "Sample-3",
+    "commands": [{
+      "id": "e815a663-31f3-4ee2-b086-f23ddbbf7b74",
+      "comment": "",
+      "command": "open",
+      "target": "/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f7f96d5-b3ab-4db5-b299-ea35109fd3d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x683",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e98646c-ada1-4a75-b4e3-cf6f5903f954",
+      "comment": "",
+      "command": "click",
+      "target": "id=topicItem",
+      "targets": [
+        ["id=topicItem", "id"],
+        ["name=topicItem", "name"],
+        ["css=#topicItem", "css"],
+        ["css=#topicItem", "css:finder"],
+        ["xpath=//select[@id='topicItem']", "xpath:attributes"],
+        ["xpath=//form[@id='jumpToPage']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe81db34-c08c-4f3c-911e-d23f9c336956",
+      "comment": "",
+      "command": "select",
+      "target": "id=topicItem",
+      "targets": [
+        ["id=topicItem", "id"],
+        ["name=topicItem", "name"],
+        ["css=#topicItem", "css"],
+        ["css=#topicItem", "css:finder"],
+        ["xpath=//select[@id='topicItem']", "xpath:attributes"],
+        ["xpath=//form[@id='jumpToPage']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "label=Interest, Simple"
+    }, {
+      "id": "ef6d68f1-ba8c-4fa1-b88f-0f81a4ea64d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=topicItem",
+      "targets": [
+        ["id=topicItem", "id"],
+        ["name=topicItem", "name"],
+        ["css=#topicItem", "css"],
+        ["css=#topicItem", "css:finder"],
+        ["xpath=//select[@id='topicItem']", "xpath:attributes"],
+        ["xpath=//form[@id='jumpToPage']/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c39a535-b29c-4f97-94b1-815313cb3386",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General Math",
+      "targets": [
+        ["linkText=General Math", "linkText"],
+        ["css=a[title=\"General Math\"]", "css"],
+        ["css=#navBox-2 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'General Math')]", "xpath:link"],
+        ["xpath=//div[@id='navBox-2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index2.html')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9330c178-e892-480b-885d-651462a41e6a",
+      "comment": "",
+      "command": "type",
+      "target": "name=principal",
+      "targets": [
+        ["name=principal", "name"],
+        ["css=input[name=\"principal\"]", "css"],
+        ["css=center:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='principal']", "xpath:attributes"],
+        ["xpath=//div[@id='d-childMainContLeft']/div[2]/table/tbody/tr/td/center/table/tbody/tr/td[2]/form/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": "20000"
+    }, {
+      "id": "8d1d2a03-73e1-4c20-9cb4-f54bfca3b134",
+      "comment": "",
+      "command": "click",
+      "target": "name=interest",
+      "targets": [
+        ["name=interest", "name"],
+        ["css=input[name=\"interest\"]", "css"],
+        ["css=center:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='interest']", "xpath:attributes"],
+        ["xpath=//div[@id='d-childMainContLeft']/div[2]/table/tbody/tr/td/center/table/tbody/tr/td[2]/form/center[2]/input", "xpath:idRelative"],
+        ["xpath=//center[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ccd4368-828d-4167-a892-c842c59110ad",
+      "comment": "",
+      "command": "type",
+      "target": "name=interest",
+      "targets": [
+        ["name=interest", "name"],
+        ["css=input[name=\"interest\"]", "css"],
+        ["css=center:nth-child(7) > input", "css:finder"],
+        ["xpath=//input[@name='interest']", "xpath:attributes"],
+        ["xpath=//div[@id='d-childMainContLeft']/div[2]/table/tbody/tr/td/center/table/tbody/tr/td[2]/form/center[2]/input", "xpath:idRelative"],
+        ["xpath=//center[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "ba1347d2-72ec-43d5-a8f8-371330c9fc57",
+      "comment": "",
+      "command": "click",
+      "target": "name=desired_time",
+      "targets": [
+        ["name=desired_time", "name"],
+        ["css=input[name=\"desired_time\"]", "css"],
+        ["css=center:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@name='desired_time']", "xpath:attributes"],
+        ["xpath=//div[@id='d-childMainContLeft']/div[2]/table/tbody/tr/td/center/table/tbody/tr/td[2]/form/center[3]/input", "xpath:idRelative"],
+        ["xpath=//center[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce4fbc0-4ca0-46b3-9026-27415ce8287e",
+      "comment": "",
+      "command": "type",
+      "target": "name=desired_time",
+      "targets": [
+        ["name=desired_time", "name"],
+        ["css=input[name=\"desired_time\"]", "css"],
+        ["css=center:nth-child(9) > input", "css:finder"],
+        ["xpath=//input[@name='desired_time']", "xpath:attributes"],
+        ["xpath=//div[@id='d-childMainContLeft']/div[2]/table/tbody/tr/td/center/table/tbody/tr/td[2]/form/center[3]/input", "xpath:idRelative"],
+        ["xpath=//center[3]/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "619c9eaa-69d3-45b1-b9c0-b5d64988130d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[type=\"submit\"]",
+      "targets": [
+        ["css=input[type=\"submit\"]", "css"],
+        ["css=p > input", "css:finder"],
+        ["xpath=//input[@value='Find the amount of interest']", "xpath:attributes"],
+        ["xpath=//div[@id='d-childMainContLeft']/div[2]/table/tbody/tr/td/center/table/tbody/tr/td[2]/form/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "171bdf7f-cdf6-413d-b187-45704195273e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b93b4b0a-9001-4db8-96a1-61c67b9c66ae"]
+  }],
+  "urls": ["http://webmath.com/"],
+  "plugins": []
+}
